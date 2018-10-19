@@ -54,13 +54,13 @@ public class MainActivity extends AppCompatActivity {
             myNumber.value = Integer.parseInt(numberInput.getText().toString());
 
             if (myNumber.isTriangular() && myNumber.isSquare()) {
-                message = myNumber.value + " is both Triangular and Square Number.";
+                message = myNumber.value + " is both Triangular and Square Number!";
             } else if (myNumber.isTriangular() && !myNumber.isSquare()) {
-                message = myNumber.value + " is only a Triangular Number";
+                message = myNumber.value + " is only a Triangular Number!";
             } else if (!myNumber.isTriangular() && myNumber.isSquare()) {
-                message = myNumber.value + " is only a Square Number.";
+                message = myNumber.value + " is only a Square Number!";
             } else {
-                message = myNumber.value + " is neither Triangular nor Square Number.";
+                message = myNumber.value + " is neither Triangular nor Square Number!";
             }
         }
 
